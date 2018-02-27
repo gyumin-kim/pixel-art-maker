@@ -1,11 +1,24 @@
+html, body {
+    height: 100%;
+}
+
 body {
     text-align: center;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    flex: 1 0 auto;
 }
 
 h1 {
     font-family: Monoton;
     font-size: 70px;
-    margin: 0.2em;
+    margin: 0;
     background-image: url('https://png.pngtree.com/thumb_back/fh260/back_pic/00/15/30/4656e81f6dc57c5.jpg');
 }
 
@@ -38,4 +51,31 @@ td {
 
 input[type=number] {
     width: 6em;
+}
+
+footer {
+    background-color: #00338a;
+    height: 60px;
+    margin: 100px 0 0 0;
+    width: 100%;
+    color: white;
+    flex-shrink: 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: center;
+}
+
+footer .explanation {
+    margin-right: 590px;
+}
+
+footer .name {
+    margin-left: 560px;
+    text-decoration: none;
+}
+
+.name a:visited {
+    color: white;
 }
