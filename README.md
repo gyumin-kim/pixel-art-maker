@@ -11,7 +11,7 @@ This is a "Pixel Art Maker" project of [Udacity](https://www.udacity.com/)'s _[F
 
 ## Instructions
 
-![Preview](preview.png)
+![preview](preview.png)
 
 You can draw a pixel art work by this. 
 Decide sizes of canvas as you want, and make some cool drawings using various colors!
